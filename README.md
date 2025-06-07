@@ -9,7 +9,7 @@
 
 ### ℹ️ Objetivo do código: 
 - Servir como um portifólio;
-- Tem a possibilidade de modificar só algumas cores para deixar do jeito que preferir;
+- Tem o modo claro e escuro;
 - Designer moderno;
 - Responsivo ao mouse;
 - Se adpta a web e mobile.
