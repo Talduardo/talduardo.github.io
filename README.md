@@ -1,5 +1,4 @@
-# meu-portfolio
-# Olá! Seja bem vindo! 👋
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Ol%C3%A1!+Seja+Bem-Vindo!)](https://git.io/typing-svg)
 
 ### 👩‍💻 **Tecnologias usadas no códigos:**
 <div style="display: inline_block"><br/>
