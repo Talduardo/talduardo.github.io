@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eduardo Holanda | Portfólio Profissional</title>
+    <link rel="icon" href="https://example.com/your-favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased font-sans">
+
+    <header>
+        <div class="container flex justify-between items-center py-4">
+            <a href="#home" class="text-4xl font-extrabold select-none tracking-tight">Eduardo Holanda</a>
+            <nav class="space-x-8">
+                <a href="#about">Sobre</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+                <button id="theme-toggle" aria-label="Alternar Modo Escuro" title="Alternar Modo Escuro" type="button" class="ml-6 px-4 py-2 rounded-full text-sm font-semibold bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 transition-colors duration-300">
+                    Modo Escuro
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="eduardo-holanda.jpg" alt="Foto de Perfil de Eduardo Holanda" class="profile-picture mx-auto">
+        <h1>
+            Olá, eu sou <span>Eduardo Holanda</span>
+        </h1>
+        <p>
+            Um Cientista de Dados e Desenvolvedor Back-End apaixonado por transformar dados em insights e construir soluções robustas. Especialista em Python, SQL, Machine Learning e IA.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="button">Ver Projetos</a>
+            <a href="#contact" class="button accent">Entrar em Contato</a>
+            <a href="/caminho/do/seu/cv.pdf" download class="button secondary">Download CV <i class="fas fa-download ml-2"></i></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>
+            Como Cientista de Dados e Desenvolvedor Back-End proativo e orientado a resultados, minha paixão reside em transformar desafios complexos em soluções claras e impactantes. Minha expertise abrange Python, SQL, Machine Learning e Inteligência Artificial, com uma sólida trajetória na construção de APIs robustas e na otimização de processos através da análise de dados.
+            <br /><br />
+            Valorizo a colaboração e a comunicação, garantindo que insights complexos sejam comunicados de forma efetiva e estratégica. Busco atuar em ambientes inovadores onde possa aplicar minha capacidade de resolver problemas, proatividade e foco em gerar valor e eficiência, contribuindo para o sucesso de equipes e clientes.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Minhas Habilidades</h2>
+        <div class="skill-grid">
+            <div class="skill-item">
+                <div class="skill-label">
+                    <span>Python &amp; SQL</span><span>85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-label">
+                    <span>Excel &amp; ETL</span><span>70%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-label">
+                    <span>Machine Learning &amp; Deep Learning</span><span>80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-label">
+                    <span>C# &amp; .NET</span><span>75%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+            </div>
+             <div class="skill-item">
+                <div class="skill-label">
+                    <span>Visualização de Dados (Power BI, Tableau)</span><span>70%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+            </div>
+             <div class="skill-item">
+                <div class="skill-label">
+                    <span>Git e GitHub</span><span>75%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 65%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Meus Projetos</h2>
+        <div>
+            <article tabindex="0" role="button" class="project-card" data-project-id="1" aria-describedby="desc-project-1">
+                <h3>Análise de Sentimentos com NLP</h3>
+                <p id="desc-project-1">Desenvolvimento de um modelo de Processamento de Linguagem Natural (NLP) para analisar sentimentos em reviews de clientes, utilizando Python e bibliotecas como NLTK e Scikit-learn.</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourname/project-one" target="_blank" rel="noopener" class="project-link">
+                        <i class="fab fa-github"></i> Código Fonte
+                    </a>
+                    <a href="https://yourdemo.com/project-one" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Ver Demo
+                    </a>
+                </div>
+            </article>
+            <article tabindex="0" role="button" class="project-card" data-project-id="2" aria-describedby="desc-project-2">
+                <h3>Sistema de Recomendação de Produtos</h3>
+                <p id="desc-project-2">Criação de um sistema de recomendação personalizado para e-commerce, baseado em algoritmos de filtragem colaborativa e conteúdo, implementado com Python e FastAPI para API.</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourname/project-two" target="_blank" rel="noopener" class="project-link">
+                        <i class="fab fa-github"></i> Código Fonte
+                    </a>
+                    <a href="https://yourdemo.com/project-two" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Ver Demo
+                    </a>
+                </div>
+            </article>
+            <article tabindex="0" role="button" class="project-card" data-project-id="3" aria-describedby="desc-project-3">
+                <h3>Dashboard Interativo de Vendas</h3>
+                <p id="desc-project-3">Desenvolvimento de um dashboard interativo para monitoramento de vendas, utilizando Power BI (ou Tableau) e integração com banco de dados SQL para atualização em tempo real.</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourname/project-three" target="_blank" rel="noopener" class="project-link">
+                        <i class="fab fa-github"></i> Código Fonte
+                    </a>
+                    <a href="https://yourdemo.com/project-three" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Ver Demo
+                    </a>
+                    </div>
+            </article>
+             <article tabindex="0" role="button" class="project-card" data-project-id="4" aria-describedby="desc-project-4">
+                <h3>API RESTful com Django REST Framework</h3>
+                <p id="desc-project-4">Construção de uma API RESTful completa para gerenciamento de usuários e tarefas, utilizando Django REST Framework e PostgreSQL, com autenticação JWT.</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourname/project-four" target="_blank" rel="noopener" class="project-link">
+                        <i class="fab fa-github"></i> Código Fonte
+                    </a>
+                    <a href="https://yourdemo.com/project-four" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Ver Demo
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p class="text-center mb-10">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para me enviar uma mensagem!</p>
+        <form id="contact-form" novalidate>
+            <div class="floating-label">
+                <input type="text" id="name" name="name" placeholder=" " required aria-required="true" aria-describedby="name-error" />
+                <label for="name">Seu Nome Completo</label>
+                <p id="name-error" class="error-message" role="alert">Por favor, digite seu nome.</p>
+            </div>
+            <div class="floating-label">
+                <input type="email" id="email" name="email" placeholder=" " required aria-required="true" aria-describedby="email-error" />
+                <label for="email">Seu Melhor E-mail</label>
+                <p id="email-error" class="error-message" role="alert">Por favor, digite um e-mail válido.</p>
+            </div>
+            <div class="floating-label">
+                <textarea id="message" name="message" rows="6" placeholder=" " required aria-required="true" aria-describedby="message-error"></textarea>
+                <label for="message">Sua Mensagem</label>
+                <p id="message-error" class="error-message" role="alert">Por favor, digite sua mensagem.</p>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+            <p id="form-success" class="hidden text-green-600 font-semibold text-center mt-4" role="status" aria-live="polite">Mensagem enviada com sucesso! Obrigado por entrar em contato.</p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Eduardo Holanda. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/eduardo-holanda-jacinto" target="_blank" rel="noopener noreferrer" aria-label="Meu LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Talduardo" target="_blank" rel="noopener noreferrer" aria-label="Meu GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbhDtjvfPfMdGMKxQXHNqwNFGndFtWvngXWwPJrXgBQrBxjvTBvPncTlwDSGpthkKBXHJC" aria-label="Meu E-mail"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+        <div class="modal-content">
+            <button id="modal-close" aria-label="Fechar modal" class="modal-close">&times;</button>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+            <div class="modal-actions">
+                <a id="modal-link-source" href="#" target="_blank" rel="noopener" class="button">
+                    <i class="fab fa-github mr-2"></i> Código Fonte
+                </a>
+                <a id="modal-link-demo" href="#" target="_blank" rel="noopener" class="button secondary">
+                    <i class="fas fa-external-link-alt mr-2"></i> Ver Demo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (() => {
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const bodyEl = document.body;
+            const currentYearSpan = document.getElementById('current-year');
+
+            currentYearSpan.textContent = new Date().getFullYear();
+
+            function setTheme(theme) {
+                if (theme === 'dark') {
+                    bodyEl.classList.add('dark');
+                    themeToggleBtn.textContent = 'Modo Claro';
+                } else {
+                    bodyEl.classList.remove('dark');
+                    themeToggleBtn.textContent = 'Modo Escuro';
+                }
+                localStorage.setItem('theme', theme);
+            }
+
+            function toggleTheme() {
+                if(bodyEl.classList.contains('dark')) {
+                    setTheme('light');
+                } else {
+                    setTheme('dark');
+                }
+            }
+
+            function detectSystemTheme() {
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    return 'dark';
+                }
+                return 'light';
+            }
+
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && detectSystemTheme() === 'dark')) {
+                setTheme('dark');
+            } else {
+                setTheme('light');
+            }
+
+            themeToggleBtn.addEventListener('click', toggleTheme);
+
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalDesc = document.getElementById('modal-desc');
+            const modalLinkSource = document.getElementById('modal-link-source');
+            const modalLinkDemo = document.getElementById('modal-link-demo');
+            const modalCloseBtn = document.getElementById('modal-close');
+
+            const projects = {
+                1: {
+                    title: "Análise de Sentimentos com NLP",
+                    description: "Este projeto envolveu o desenvolvimento de um modelo de Processamento de Linguagem Natural (NLP) para analisar sentimentos em reviews de clientes, utilizando Python e bibliotecas como NLTK e Scikit-learn. O objetivo foi identificar opiniões positivas, negativas ou neutras, fornecendo insights valiosos para a melhoria de produtos/serviços. A pipeline incluiu coleta de dados, limpeza, engenharia de features e avaliação do modelo.",
+                    source: "https://github.com/yourname/project-one",
+                    demo: "https://yourdemo.com/project-one"
+                },
+                2: {
+                    title: "Sistema de Recomendação de Produtos",
+                    description: "Neste projeto, foi criado um sistema de recomendação personalizado para uma plataforma de e-commerce. A solução utilizou algoritmos de filtragem colaborativa (baseados em usuários e itens) e filtragem baseada em conteúdo para sugerir produtos relevantes. A implementação foi feita em Python, com a construção de uma API RESTful utilizando FastAPI para servir as recomendações em tempo real. O sistema visa otimizar a experiência do usuário e aumentar as taxas de conversão.",
+                    source: "https://github.com/yourname/project-two",
+                    demo: "https://yourdemo.com/project-two"
+                },
+                3: {
+                    title: "Dashboard Interativo de Vendas",
+                    description: "Este projeto consistiu na criação de um dashboard interativo para monitoramento de desempenho de vendas. Utilizando ferramentas de visualização de dados como Power BI ou Tableau, o dashboard apresenta KPIs importantes, tendências de vendas, análise de segmentos de clientes e performance de produtos. A integração com um banco de dados SQL garante que os dados sejam atualizados em tempo real, fornecendo uma visão estratégica e acionável para a tomada de decisões.",
+                    source: "https://github.com/yourname/project-three",
+                    demo: "https://yourdemo.com/project-three"
+                },
+                 4: {
+                    title: "API RESTful com Django REST Framework",
+                    description: "Construção de uma API RESTful completa para gerenciamento de usuários e tarefas. O projeto foi construído utilizando Django REST Framework para a camada de API e PostgreSQL como banco de dados. Recursos como autenticação JWT (JSON Web Tokens), validação de dados e serialização foram implementados para garantir segurança e eficiência. Esta API pode servir como backend para diversas aplicações web e móveis.",
+                    source: "https://github.com/yourname/project-four",
+                    demo: "https://yourdemo.com/project-four"
+                }
+            };
+
+            function openModal(projectId) {
+                const proj = projects[projectId];
+                modalTitle.textContent = proj.title;
+                modalDesc.textContent = proj.description;
+                modalLinkSource.href = proj.source;
+
+                if (proj.demo) {
+                    modalLinkDemo.href = proj.demo;
+                    modalLinkDemo.style.display = 'inline-flex';
+                } else {
+                    modalLinkDemo.style.display = 'none';
+                }
+
+                modal.classList.add('active');
+                modal.focus();
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeModal() {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+
+            modalCloseBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === "Escape" && modal.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+
+            document.querySelectorAll('[data-project-id]').forEach(card => {
+                card.addEventListener('click', () => {
+                    openModal(card.getAttribute('data-project-id'));
+                });
+                card.addEventListener('keydown', e => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        openModal(card.getAttribute('data-project-id'));
+                    }
+                });
+            });
+
+            const form = document.getElementById('contact-form');
+            const successMessage = document.getElementById('form-success');
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                const name = form.name;
+                const email = form.email;
+                const message = form.message;
+
+                let valid = true;
+
+                function showError(input, messageId) {
+                    input.setAttribute('aria-invalid', 'true');
+                    const err = document.getElementById(messageId);
+                    err.classList.add('active');
+                    valid = false;
+                }
+                function clearError(input, messageId) {
+                    input.removeAttribute('aria-invalid');
+                    const err = document.getElementById(messageId);
+                    err.classList.remove('active');
+                }
+
+                clearError(name, 'name-error');
+                clearError(email, 'email-error');
+                clearError(message, 'message-error');
+
+                if (!name.value.trim()) showError(name, 'name-error');
+                if (!email.value.trim() || !/^\S+@\S+\.\S+$/.test(email.value.trim())) showError(email, 'email-error');
+                if (!message.value.trim()) showError(message, 'message-error');
+
+                if (!valid) {
+                    form.querySelector('[aria-invalid="true"]').focus();
+                    return;
+                }
+
+                console.log("Formulário enviado:", {
+                    name: name.value,
+                    email: email.value,
+                    message: message.value
+                });
+
+                successMessage.classList.remove('hidden');
+                form.reset();
+
+                setTimeout(() => {
+                    successMessage.classList.add('hidden');
+                }, 7000);
+            });
+
+            document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(input => {
+                input.addEventListener('input', function() {
+                    const id = this.id;
+                    const errorId = id + '-error';
+                    const errorMessageElement = document.getElementById(errorId);
+
+                    if (this.value.trim() === '') {
+                        this.setAttribute('aria-invalid', 'true');
+                        errorMessageElement.classList.add('active');
+                    } else if (id === 'email' && !/^\S+@\S+\.\S+$/.test(this.value.trim())) {
+                        this.setAttribute('aria-invalid', 'true');
+                        errorMessageElement.classList.add('active');
+                    } else {
+                        this.removeAttribute('aria-invalid');
+                        errorMessageElement.classList.remove('active');
+                    }
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
