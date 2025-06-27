@@ -38,7 +38,7 @@
         <div class="hero-buttons">
             <a href="#projects" class="button">Ver Projetos</a>
             <a href="#contact" class="button accent">Entrar em Contato</a>
-            <a href="curriculo.pdf" download class="button secondary">Download CV <i class="fas fa-download ml-2"></i></a>
+            <a href="curriculo.pdf" download="Curriculo_Eduardo_Holanda.pdf" class="button secondary">Download CV <i class="fas fa-download ml-2"></i></a>
         </div>
     </section>
 
@@ -142,7 +142,7 @@
                     <a href="https://yourdemo.com/project-three" target="_blank" rel="noopener" class="project-link">
                         <i class="fas fa-external-link-alt"></i> Ver Demo
                     </a>
-                    </div>
+                </div>
             </article>
              <article tabindex="0" role="button" class="project-card" data-project-id="4" aria-describedby="desc-project-4">
                 <h3>API RESTful com Django REST Framework</h3>
@@ -318,6 +318,13 @@
             const form = document.getElementById('contact-form');
             const successMessage = document.getElementById('form-success');
 
+            // NOTE: O formulário de contato não está no HTML fornecido, então o script abaixo
+            // pode gerar erros se você não tiver os elementos <form>, inputs e mensagens de erro
+            // com os IDs correspondentes.
+            // Se você adicionar o formulário no futuro, este script será útil.
+            // Por enquanto, ele foi mantido para referência.
+
+            /*
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
 
@@ -384,6 +391,7 @@
                     }
                 });
             });
+            */
         })();
     </script>
 </body>
